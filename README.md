@@ -64,6 +64,7 @@ The name "FlowGuardRPA" reflects a pipeline that guards operational workflows by
 *Image 1* - Start of the Main Sequence For Each file in folder activity
 
 ![variables.png](screenshots/variables.png)
+
 *Image 2* - Variables
 
 ![sample_input.png](screenshots/sample_input.png)
@@ -75,6 +76,7 @@ Also, multiple variables are set as shown in Image 2 which are then used in vari
 Image 3 shows a sample input of a png input file, meant to emulate scanned paper documents.
 
 **2. Image Loading & OCR**
+
 ![pipeline_2.png](screenshots/pipeline_2.png)
 ![pipeline_3.png](screenshots/pipeline_3.png)
 ![pipeline_4.png](screenshots/pipeline_4.png)
@@ -86,6 +88,7 @@ This loaded image is scanned with the Tessaract OCR Activity and the scanned tex
 **3. Python Integration and DB Push**
 ![pipeline_5.png](screenshots/pipeline_5.png)
 ![pipeline_6.png](screenshots/pipeline_6.png)
+
 *Image 5* - Python Steps in the Pipeline Sequence
 
 ![smple_output.png](screenshots/smple_output.png)
